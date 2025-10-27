@@ -1,0 +1,20 @@
+/*
+Colores ->
+    Blanco: #EAEAEA
+    Azul: #87B0FC
+    Negro: #515151
+    Amarillo: #E8D44D
+*/
+
+
+body{
+    min-width: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('./img/endless-constellation.svg');
+}
+
+.logo{max-width: 20vh;}
+
+button{
+    border-radius: 7px;
+}
