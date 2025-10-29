@@ -90,6 +90,29 @@ h2{ font-size: 2vw;}
     box-shadow: 0.1em 0.1em 0.1em #555;
 }
 
+.tarjetas{margin: 0 auto;
+padding: 0;}
+
+.negras{
+    color: #EAEAEA;
+    background-color: #515151;
+    border-radius: 0.7em;
+    margin: 4em auto;
+    display: inline-block;
+    width: 35vw;
+    height: 30vw;
+}
+
+.negras img{
+    display: inline-block;
+    padding: 2em;
+    width: 5vw;
+    height: 5vw;
+}
+
+footer{
+    margin-bottom: 0vw;
+}
 
 
 /*Clases universales para los elementos del documento*/
@@ -112,7 +135,9 @@ div{ background-color: #777;}
     color: #EAEAEA;
 }
 
+
 .azules{
     background-color: #87B0FC;
+    color: #EAEAEA;
     font-weight: bold;
 }
