@@ -4,18 +4,82 @@ Colores ->
     Azul: #87B0FC
     Negro: #515151
     Amarillo: #E8D44D
+    margin: top right bottom left
 */
 
 
 body{
-    min-width: 100vh;
+    min-width: 100vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url('./img/endless-constellation.svg');
     color: #515151;
+    margin: 0 auto;
 }
 
-.logo{max-width: 15vh;}
+.logo{max-width: 10vw;}
 
 button{
-    border-radius: 7px;
+    border-radius: 0.7rem;
+    font-size: 3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border: none;
+    padding: auto;
+    margin: 1em;
+}
+
+button:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 0.95em;
+    box-shadow: 0.1em 0.1em 0.1em #555;
+    text-shadow: 0.05em 0.05em 0.05em #555;
+}
+
+.cabecera{
+    min-width: 100vw;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 3vw;
+}
+
+h2{ font-size: 2vw;}
+
+.tarjetas{
+    /*Continuar por aqui*/
+}
+
+.tarjeta{
+    max-width: 25vw;
+
+}
+
+
+
+/*Clases universales para los elementos del documento*/
+.centrados{
+    margin: 0 auto;
+    text-align: center;
+}
+div{ background-color: #777;}
+
+.izquierda{float: left;}
+.derecha{float: right;}
+
+.amarillos{
+    background-color: #E8D44D;
+    color: #515151;
+    font-weight: bold;
+}
+
+.blanco{
+    color: #EAEAEA;
+}
+
+.azules{
+    background-color: #87B0FC;
+    font-weight: bold;
 }
