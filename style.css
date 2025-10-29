@@ -68,12 +68,21 @@ h2{ font-size: 2vw;}
     box-shadow: 0.1em 0.1em 0.1em #555;
 }
 
-.tarjeta h2, .tarjeta p{
+.tarjeta h2{
     margin: 0 auto;
     margin-left: 1em;
     text-align: left;
 }
 
+.tarjeta p{
+    font-size: 1vw;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    text-align: left;
+    max-width: 20em;
+    text-shadow: none;
+}
 
 
 .tarjeta:hover{
