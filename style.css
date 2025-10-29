@@ -26,14 +26,15 @@ button{
     border: none;
     padding: auto;
     margin: 1em;
+    box-shadow: 0.05em 0.05em 0.05em #555;
 }
 
 button:hover{
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
     margin-top: 0.95em;
     box-shadow: 0.1em 0.1em 0.1em #555;
-    text-shadow: 0.05em 0.05em 0.05em #555;
+    text-shadow: 0.1em 0.1em 0.1em #555;
 }
 
 .cabecera{
@@ -48,13 +49,36 @@ h1{
 
 h2{ font-size: 2vw;}
 
-.tarjetas{
-    /*Continuar por aqui*/
+.tarjeta{
+    display: inline-block;
+    max-width: 35vw;
+    min-width: 25vw;
+    margin: 1em;
+    border-radius: 0.7rem;
+    text-shadow: 0.05em 0.05em 0.05em #555;
 }
 
-.tarjeta{
-    max-width: 25vw;
+.tarjeta img{
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+    max-width: 20vw;
+    border-radius: 0.7vw;
+    border: none;
+    box-shadow: 0.1em 0.1em 0.1em #555;
+}
 
+.tarjeta h2, .tarjeta p{
+    margin: 0 auto;
+    margin-left: 1em;
+    text-align: left;
+}
+
+
+
+.tarjeta:hover{
+    transition: all 0.2s ease;
+    box-shadow: 0.1em 0.1em 0.1em #555;
 }
 
 
